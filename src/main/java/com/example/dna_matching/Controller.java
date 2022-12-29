@@ -52,7 +52,7 @@ public class Controller {
                 if (index != -1){
                     result.appendText("The sequence: '" + query + "' found at the position: " + (index+1)+"\n");
                 }else {
-                    result.appendText("The sequence: '" + query + "' not found!\n");
+                    result.appendText("The sequence: '" + query + "' not found! \n");
                 }
             }
         } catch (NumberFormatException ex) {
