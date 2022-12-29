@@ -11,7 +11,7 @@ The Karp-Rabin algorithm aims to use skillful modulo and arithmetic operations a
 * In the last TextArea, each of the next N lines contains a DNA sequence consisting of exactly L characters.
 
 ## Example:
-
+![alt text](./dna.png?raw=true)
 * ### Input:
 
 The base DNA Sequence: 
