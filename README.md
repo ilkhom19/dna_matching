@@ -16,7 +16,7 @@ The Karp-Rabin algorithm aims to use skillful modulo and arithmetic operations a
 * JavaFX.fxml
 * The Application is build by using Maven
 
-## Installation
+## Installation:
 * Open a new IntelliJ project.
 * Then, Git clone this repo to your project
     ```bash
