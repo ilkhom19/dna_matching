@@ -14,7 +14,7 @@ The Karp-Rabin algorithm aims to use skillful modulo and arithmetic operations a
 * Open a new IntelliJ project.
 * Then, Git clone this repo to your project
     ```bash
-        $ https://github.com/ilkhom19/dna_matching
+        https://github.com/ilkhom19/dna_matching
     ```
 * Then Run the Driver.java file
 
