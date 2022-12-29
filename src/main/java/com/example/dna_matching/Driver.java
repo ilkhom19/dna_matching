@@ -18,7 +18,7 @@ public class Driver extends Application {
             Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("scene.fxml")));
 
             Scene scene = new Scene(root);
-            primaryStage.setTitle("Fast DNA Matching");
+            primaryStage.setTitle("Fast DNA Matching Application");
             primaryStage.setScene(scene);
             primaryStage.show();
         }
