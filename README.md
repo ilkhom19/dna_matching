@@ -1,4 +1,4 @@
-# Substring Matching Algorithm in C++ / Java / Python
+# DNA Matching Desktop Application
 
 The Karp-Rabin algorithm aims to use skillful modulo and arithmetic operations as well as hashing functions to decrease the time complexity of matching exact substring of the text. Here is the application in Genetics: Looking for DNA sequnces in the precalculated Data Set of DNA sequence
 
