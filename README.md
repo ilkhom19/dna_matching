@@ -29,6 +29,11 @@ The Karp-Rabin algorithm aims to use skillful modulo and arithmetic operations a
 * Computes the Hash value of each substring with Length "L"
 * Can compute the search in less than a second for any input given( also depends on the machine )
 
+## Future improvements:
+* Interactive search animations
+* Optimize the Hashing Function
+* A feature to generate randomly distributed DNA sequences similar to real DNA's
+
 ## Example:
 ![alt text](./dna.png?raw=true)
 * ### Input:
