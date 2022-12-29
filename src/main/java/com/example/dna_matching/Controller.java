@@ -39,15 +39,10 @@ public class Controller {
     void engClick(ActionEvent event) {
         try	{
             baseString = String.valueOf(baseString1.getText());
-            System.out.println(baseString);
             numberOfQueries = Integer.parseInt(String.valueOf(numberOfQueries1.getText()));
-            System.out.println(numberOfQueries);
             queryLength = Integer.parseInt(String.valueOf(queryLength1.getText()));
-            System.out.println(queryLength);
             baseStringLength = baseString.length();
-            System.out.println(baseString);
             queries = new ArrayList<String>(Arrays.asList(String.valueOf(queries1.getText()).split("\n")));
-
 
             hashFunction(baseString);
 
