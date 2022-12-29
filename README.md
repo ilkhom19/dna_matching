@@ -10,6 +10,25 @@ The Karp-Rabin algorithm aims to use skillful modulo and arithmetic operations a
 * The next 2 fields recieves two integers 1 <= L <= 1000 and 1 <= N <= 1000 representing the length of each query and the number of short DNA queries in the predefined set. 
 * In the last TextArea, each of the next N lines contains a DNA sequence consisting of exactly L characters.
 
+## Dependencies:
+* Java 17
+* JavaFX.controls
+* JavaFX.fxml
+* The Application is build by using Maven
+
+## Installation
+* Open a new IntelliJ project.
+* Then, Git clone this repo to your project
+    ```bash
+        $ git clone https://github.com/ilkhom19/lawyer_bot_backend.git
+    ```
+* Then Run the Driver.java file
+
+## Features:
+* Can recieve up to 500,000 character DNA sequence.
+* Computes the Hash value of each substring with Length "L"
+* Can compute the search in less than a second for any input given( also depends on the machine )
+
 ## Example:
 ![alt text](./dna.png?raw=true)
 * ### Input:
@@ -37,10 +56,4 @@ The sequence: 'CTATGACCCT' not found<br />
 The sequence: 'GGTAAGAGTA' found at the position: 609<br />
 The sequence: 'CGGTGGCGGA' not found<br />
 
-## Installation
-* Open a new IntelliJ project.
-* Then, Git clone this repo to your project
-    ```bash
-        $ git clone https://github.com/ilkhom19/lawyer_bot_backend.git
-    ```
-* Then Run the Driver.java file
+
